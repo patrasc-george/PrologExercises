@@ -5,6 +5,7 @@ This Prolog file contains various predicates for list manipulation and logic puz
 The flatten_list/2 predicate is used to convert a nested list into a single flattened list. It recursively processes each element, appending lists within lists to produce a single-level list.
 
 Example Usage
+
 Given a nested list [1, [2, [3, 4], 5], 6], the predicate will produce the flattened list [1, 2, 3, 4, 5, 6].
 
 # Greatest Common Divisor of List Elements
